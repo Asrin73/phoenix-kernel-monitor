@@ -1,0 +1,16 @@
+{
+    "states": [
+        {
+            "name": "open",
+            "syscall": "openat"
+        },
+        {
+            "name": "read",
+            "syscall": "read"
+        },
+        {
+            "name": "write",
+            "syscall": "write"
+        }
+    ]
+}

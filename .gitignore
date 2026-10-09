@@ -1,0 +1,31 @@
+# Linux kernel module build artifacts
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+.*.cmd
+Module.symvers
+modules.order
+
+# Compiled user-space binaries
+/fsm/fsm
+/tests/phoenix
+/tests/device_test
+/tests/event_test
+/tests/read_test
+/tests/syscall_test
+
+# Temporary and backup files
+*.save
+*.bak
+*~
+
+# Temporary test outputs
+/tests/*.txt
+/fsm/phoenix_test.txt
+
+# Obsolete or experimental source files
+/src/hello.c
+/src/phoenix_device.c
+/src/phoenix_kprobe_day9_backup.c

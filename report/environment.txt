@@ -1,0 +1,19 @@
+Ubuntu:
+Ubuntu 24.04.5 LTS
+
+Kernel:
+7.0.0-38-generic
+
+RAM:
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.3Gi       945Mi        34Mi       1.9Gi       2.5Gi
+Swap:          3.8Gi          0B       3.8Gi
+
+Disk:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        49G   11G   37G  22% /
+
+Development tools:
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+GNU Make 4.3
+git version 2.43.0
